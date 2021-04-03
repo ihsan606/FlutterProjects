@@ -1,0 +1,8 @@
+=>wrap = membungkus
+=>EdgeInset = sisipan tepi, memberi jarak beberapa pixel dari container terhadap widget lainnya
+=>widget ada dua:
+1--stateless = widget yang tidak memiliki keadaan/ tidak akan pernah berubah bentuk dalam aplikasi
+2--statefull = widget yang memiliki keadaan, conton tombol, ketika diklik keadaan warnanya akn berubah misalnya
+=>Anonymous Method adalah method yang tidak memiliki nama
+=>listview mirip seperti column, bedanya jika kita menggunakan column untuk mengisi data yang banyak melebihi layar
+maka akan menimbulkan error, sedangkan pada listview bisa scroldown atau up
