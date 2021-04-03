@@ -6,3 +6,12 @@
 =>Anonymous Method adalah method yang tidak memiliki nama
 =>listview mirip seperti column, bedanya jika kita menggunakan column untuk mengisi data yang banyak melebihi layar
 maka akan menimbulkan error, sedangkan pada listview bisa scroldown atau up
+=>spaceBetween = akan memposisikan widget diatara space kosong.
+=>spaceAround = akan membagi rata space pada widget, kiri dan kanannya
+=>MainAxisAlignment = perataan sumbu utama, jika masuk pada row maka akan menyusun widget secara horizontal
+=>CrossAxisAlignment = perataan sumbu silang, kebalikan dari Main Axis Alignment
+=>Animated container = sebuah container yang dapat memberikan akses animasi pada widget
+di dalamnya
+=>Random = untuk memberikan nilai random, kita harus meng-inisialisasi sebuah object random
+//Random random = Random;
+untuk menggunakan nilai random kita butuh meng-import package yang bernama 'dart:math'
