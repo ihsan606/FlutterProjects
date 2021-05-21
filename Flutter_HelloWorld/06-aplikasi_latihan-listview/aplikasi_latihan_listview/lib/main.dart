@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
         Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
-              RaisedButton(
+              ElevatedButton(
                   child: Text("Tambah Data"),
                   onPressed: () {
                     setState(() {
@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
                       counter++;
                     });
                   }),
-              RaisedButton(
+              ElevatedButton(
                   child: Text("Kurangi Data"),
                   onPressed: () {
                     setState(() {
