@@ -16,16 +16,27 @@ class MyApp extends StatelessWidget {
         ),
       ),
       body: Center(
-        child: Text("ini adalah text ",
-            style: GoogleFonts.courierPrime(
-                textStyle: TextStyle(
-                    fontWeight: FontWeight.w700,
-                    fontSize: 30,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text("ini adalah text ",
+                style: GoogleFonts.courierPrime(
+                    textStyle: TextStyle(
+                        fontWeight: FontWeight.w700,
+                        fontSize: 30,
+                        fontStyle: FontStyle.italic,
+                        decoration: TextDecoration.overline,
+                        decorationColor: Colors.red,
+                        decorationThickness: 2,
+                        decorationStyle: TextDecorationStyle.dashed))),
+            Text("Text 2",
+                style: TextStyle(
+                    fontFamily: "OpenSans",
                     fontStyle: FontStyle.italic,
-                    decoration: TextDecoration.overline,
-                    decorationColor: Colors.black,
-                    decorationThickness: 2,
-                    decorationStyle: TextDecorationStyle.solid))),
+                    fontSize: 30,
+                    fontWeight: FontWeight.w700))
+          ],
+        ),
       ),
     ));
   }

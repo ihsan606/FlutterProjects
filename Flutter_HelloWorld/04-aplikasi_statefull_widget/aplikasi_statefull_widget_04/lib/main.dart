@@ -36,14 +36,14 @@ class _MyAppState extends State<MyApp> {
             children: <Widget>[
               Text(number.toString(),
                   style: TextStyle(fontSize: 10 + number.toDouble())),
-              RaisedButton(
+              ElevatedButton(
                 child: Text("Tambah Bilangan"),
                 onPressed: tekanTombol,
               ),
-              RaisedButton(
-                color: Colors.blue,
+              ElevatedButton(
                 child: Text("Kurangi Bilangan"),
                 onPressed: tekanKurang,
+                style: ElevatedButton.styleFrom(primary: Colors.blue),
               )
             ],
           ),
